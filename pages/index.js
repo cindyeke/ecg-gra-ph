@@ -1,5 +1,8 @@
-const HomePage = () => {
-    return <div></div>
+import Home from 'components/Home'
+import Layout from 'components/Layout'
+
+const App = () => {
+    return <Layout />
 }
 
-export default HomePage
+export default App
