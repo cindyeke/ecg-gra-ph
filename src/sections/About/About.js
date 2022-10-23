@@ -1,15 +1,16 @@
-import { Grid } from '@mui/material'
+import useNav from 'src/hooks/useNav'
 
 const About = () => {
+    const aboutRef = useNav('about')
+
     return (
         <section
             id="about"
+            ref={aboutRef}
             style={{
                 height: '100%',
-                backgroundColor: 'yellow',
             }}
         >
-            About
         </section>
     )
 }
