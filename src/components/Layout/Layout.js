@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import homePageImg from '../../../public/images/people.jpg'
 import layoutStyles from './Layout.styles'
-import { SECTION } from 'src/utils/constants'
+import { SECTION } from 'utils/constants'
 import useLayout from './hook/useLayout'
 
 const Layout = ({ children }) => {

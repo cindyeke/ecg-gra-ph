@@ -7,6 +7,7 @@ export const theme = createTheme({
         background: {
             main: '#EEEEEE',
             secondary: '#0026B9',
+            accent: '#858585',
         },
         text: {
             primary: '#858585',
@@ -23,6 +24,12 @@ export const theme = createTheme({
         },
         h2: {
             fontSize: '1rem',
+        },
+        h3: {
+            fontSize: '1.3rem',
+            textTransform: 'uppercase',
+            letterSpacing: '0.2em',
+            marginTop: '1.5rem',
         },
         h6: {
             fontSize: '1rem',

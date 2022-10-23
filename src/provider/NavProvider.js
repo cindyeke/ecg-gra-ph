@@ -1,9 +1,10 @@
 import { createContext, useState } from 'react'
+import { SECTION } from 'utils/constants'
 
 export const NavContext = createContext()
 
 const NavProvider = ({ children }) => {
-    const [sectionId, setSectionId] = useState('')
+    const [sectionId, setSectionId] = useState(SECTION.home)
     const providerValue = {
         sectionId,
         setSectionId,

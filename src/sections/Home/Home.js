@@ -4,7 +4,7 @@ import Button from 'components/Button'
 import homeStyles from './Home.styles'
 import useHome from './hooks/useHome'
 import useNav from 'src/hooks/useNav'
-import { SECTION } from 'src/utils/constants'
+import { SECTION } from 'utils/constants'
 
 const Home = () => {
     const { handleGoToSection } = useHome()
