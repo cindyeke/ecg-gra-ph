@@ -1,19 +1,11 @@
-import { Box } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import footerStyles from './Footer.styles'
 
 const Footer = () => {
     return (
-        <Box
-            sx={{
-                height: '5vh',
-                width: '100%',
-                bgcolor: 'blue',
-                position: 'absolute',
-                bottom: 0,
-            }}
-        >
-            Footer
-        </Box>
+        <Typography sx={footerStyles.root}>
+            The next service is in 5 days, 2 hours, 45m
+        </Typography>
     )
 }
 
