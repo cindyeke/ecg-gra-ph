@@ -5,11 +5,21 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import homePageImg from '../../../public/images/people.jpg'
 import layoutStyles from './Layout.styles'
+import { SECTION } from 'utils/constants'
+import useLayout from './hook/useLayout'
 
 const Layout = ({ children }) => {
+    const { sectionId } = useLayout()
+
     return (
         <>
-            <Grid style={layoutStyles.root}>
+            <Grid
+                style={{
+                    ...layoutStyles.imgWrapper,
+                    ...(sectionId !== SECTION.home &&
+                        layoutStyles.disableImageWrapper),
+                }}
+            >
                 <Image
                     src={homePageImg}
                     layout="fill"

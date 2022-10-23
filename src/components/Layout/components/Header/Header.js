@@ -19,7 +19,7 @@ const Header = () => {
                 <Typography variant="h2" sx={headerStyles.text1}>
                     Welcome to
                 </Typography>
-                <Typography variant='h1' sx={headerStyles.text2}>
+                <Typography variant="h1" sx={headerStyles.text2}>
                     ECG Port Harcourt City
                 </Typography>
             </Box>
