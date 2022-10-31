@@ -24,7 +24,7 @@ const Home = () => {
                     label="service times"
                     labelStyles={homeStyles.buttonLabel}
                     buttonStyles={homeStyles.button}
-                    onButtonClick={handleGoToSection}
+                    onButtonClick={() => handleGoToSection(SECTION.service)}
                 />
                 <Button
                     label="meet our pastors"
