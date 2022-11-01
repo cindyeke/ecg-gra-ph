@@ -30,7 +30,7 @@ const Home = () => {
                     label="meet our pastors"
                     labelStyles={homeStyles.buttonLabel}
                     buttonStyles={homeStyles.button}
-                    onButtonClick={handleGoToSection}
+                    onButtonClick={() => handleGoToSection(SECTION.pastors)}
                 />
                 <Button
                     label="contact us"
