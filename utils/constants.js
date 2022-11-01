@@ -8,12 +8,14 @@ const SECTION = {
     about: 'about',
     service: 'service',
     pastors: 'pastors',
+    contact: 'contact',
 }
 
 const SECTION_TITLE = {
     about: 'About Us',
     service: 'Service Times',
     pastors: 'Meet Our Pastors',
+    contact: 'Reach Out',
 }
 
 const SERVICES = [
@@ -59,7 +61,9 @@ const PASTORS = [
         id: 4,
         name: 'Pst. Emmanuel Olowo',
         imgSrc: Pastor4,
-    }
+    },
 ]
 
-export { SECTION, SECTION_TITLE, SERVICES, PASTORS }
+const FACEBOOK_GROUP_LINK = 'https://www.facebook.com/groups/431474645197438'
+
+export { SECTION, SECTION_TITLE, SERVICES, PASTORS, FACEBOOK_GROUP_LINK }
