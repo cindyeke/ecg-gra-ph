@@ -1,7 +1,7 @@
+import { handleGoToSection as handleScrollToSection } from 'utils/helpers'
+
 const useHome = () => {
-    const handleGoToSection = (section) => {
-        document.getElementById(section).scrollIntoView({ behavior: 'smooth' })
-    }
+    const handleGoToSection = (section) => handleScrollToSection(section)
 
     return { handleGoToSection }
 }

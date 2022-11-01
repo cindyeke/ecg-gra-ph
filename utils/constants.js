@@ -12,11 +12,34 @@ const SECTION = {
 }
 
 const SECTION_TITLE = {
-    about: 'About Us',
-    service: 'Service Times',
-    pastors: 'Meet Our Pastors',
-    contact: 'Reach Out',
+    about: 'about us',
+    service: 'service times',
+    pastors: 'meet our pastors',
+    contact: 'reach out',
 }
+
+const BUTTON_LINKS = [
+    {
+        id: 1,
+        label: SECTION_TITLE.about,
+        link: SECTION.about,
+    },
+    {
+        id: 2,
+        label: SECTION_TITLE.service,
+        link: SECTION.service,
+    },
+    {
+        id: 3,
+        label: SECTION_TITLE.pastors,
+        link: SECTION.pastors,
+    },
+    {
+        id: 4,
+        label: SECTION_TITLE.contact,
+        link: SECTION.contact,
+    },
+]
 
 const SERVICES = [
     {
@@ -66,4 +89,11 @@ const PASTORS = [
 
 const FACEBOOK_GROUP_LINK = 'https://www.facebook.com/groups/431474645197438'
 
-export { SECTION, SECTION_TITLE, SERVICES, PASTORS, FACEBOOK_GROUP_LINK }
+export {
+    SECTION,
+    SECTION_TITLE,
+    SERVICES,
+    PASTORS,
+    FACEBOOK_GROUP_LINK,
+    BUTTON_LINKS,
+}
