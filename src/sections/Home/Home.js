@@ -36,7 +36,7 @@ const Home = () => {
                     label="contact us"
                     labelStyles={homeStyles.buttonLabel}
                     buttonStyles={homeStyles.button}
-                    onButtonClick={handleGoToSection}
+                    onButtonClick={() => handleGoToSection(SECTION.contact)}
                 />
             </Box>
         </section>

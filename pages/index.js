@@ -4,6 +4,7 @@ import About from 'src/sections/About'
 import NavProvider from 'src/provider/NavProvider'
 import Services from 'src/sections/Services'
 import Pastors from 'src/sections/Pastors'
+import Contact from 'src/sections/Contact'
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
                 <About />
                 <Services />
                 <Pastors />
+                <Contact />
             </Layout>
         </NavProvider>
     )

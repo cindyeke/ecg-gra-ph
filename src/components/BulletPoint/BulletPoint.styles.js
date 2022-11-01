@@ -1,4 +1,4 @@
-const serviceStyles = {
+const bulletPointStyles = {
     root: {
         marginTop: '3rem',
         display: 'flex',
@@ -19,7 +19,7 @@ const serviceStyles = {
         color: 'text.primary',
         letterSpacing: '0.2em',
     },
-    dayAndTime: {
+    description: {
         fontSize: '1rem',
         fontWeight: '300',
         color: 'text.primary',
@@ -27,4 +27,4 @@ const serviceStyles = {
     },
 }
 
-export default serviceStyles
+export default bulletPointStyles
