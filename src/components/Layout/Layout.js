@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
             <Header />
             <main style={layoutStyles.main}>{children}</main>
             <Footer />
-            {sectionId !== SECTION.home && (
+            {/* {sectionId !== SECTION.home && (
                 <Button
                     sx={{
                         width: '30px',
@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
                         />
                     </svg>
                 </Button>
-            )}
+            )} */}
         </>
     )
 }

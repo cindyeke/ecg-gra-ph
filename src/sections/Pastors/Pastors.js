@@ -12,7 +12,7 @@ const Pastors = () => {
                     <PastorImage
                         key={pastor.id}
                         name={pastor.name}
-                        imgSrc={pastor.imgSrc}
+                        imgSrc={pastor.imgSrc.src}
                         alt="Pastor 1"
                     />
                 ))}

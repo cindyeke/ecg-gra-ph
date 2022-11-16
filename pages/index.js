@@ -11,31 +11,40 @@ import { Grid, Typography } from '@mui/material'
 const App = () => {
     const isMiniTabletOrMobile = useMediaQuery({ query: '(max-width: 640px)' })
     return (
-        <>
-            {isMiniTabletOrMobile ? (
-                <NavProvider>
-                    <Layout>
-                        <Home />
-                        <About />
-                        <Services />
-                        <Pastors />
-                        <Contact />
-                    </Layout>
-                </NavProvider>
-            ) : (
-                <Grid
-                    container
-                    xs={12}
-                    justifyContent="center"
-                    alignContent="center"
-                    height="100vh"
-                >
-                    <Typography variant="h1">
-                        This screen is not supported currently
-                    </Typography>
-                </Grid>
-            )}
-        </>
+        // <>
+        //     {isMiniTabletOrMobile ? (
+        //         <NavProvider>
+        //             <Layout>
+        //                 <Home />
+        //                 <About />
+        //                 <Services />
+        //                 <Pastors />
+        //                 <Contact />
+        //             </Layout>
+        //         </NavProvider>
+        //     ) : (
+        //         <Grid
+        //             container
+        //             justifyContent="center"
+        //             alignContent="center"
+        //             height="100vh"
+        //         >
+        //             <Typography variant="h1">
+        //                 This screen is not supported currently
+        //             </Typography>
+        //         </Grid>
+        //     )}
+        // </>
+
+        <NavProvider>
+            <Layout>
+                <Home />
+                <About />
+                <Services />
+                <Pastors />
+                <Contact />
+            </Layout>
+        </NavProvider>
     )
 }
 
