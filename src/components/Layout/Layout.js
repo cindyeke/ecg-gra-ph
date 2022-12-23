@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
             </Grid>
             <Header />
             <main style={layoutStyles.main}>{children}</main>
-            <Footer />
+            {/* <Footer /> */}
             {/* {sectionId !== SECTION.home && (
                 <Button
                     sx={{
