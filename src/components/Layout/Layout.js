@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
     const { sectionId, handleGoToSection } = useLayout()
 
     return (
-        <>
+        <Grid sx={{ display: 'flex', flexDirection: 'column', height: '100%'}}>
             <Grid
                 style={{
                     ...layoutStyles.imgWrapper,
@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
             </Grid>
             <Header />
             <main style={layoutStyles.main}>{children}</main>
-            {/* <Footer /> */}
+            <Footer />
             {/* {sectionId !== SECTION.home && (
                 <Button
                     sx={{
@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
                     </svg>
                 </Button>
             )} */}
-        </>
+        </Grid>
     )
 }
 

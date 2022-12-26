@@ -20,8 +20,7 @@ const About = () => {
                 <Typography>
                     <span style={aboutStyles.highlight}>
                         ECG Port Harcourt City
-                    </span>
-                    is a branch of Enlighten Christian Gathering Church
+                    </span> is a branch of Enlighten Christian Gathering Church
                     headquartered in Malawi.
                 </Typography>
                 <Typography sx={{ marginTop: '1rem' }}>

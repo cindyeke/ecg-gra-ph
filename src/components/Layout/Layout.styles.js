@@ -1,6 +1,6 @@
 const layoutStyles = {
     imgWrapper: {
-        height: '100vh',
+        height: '100%',
         width: '100%',
         position: 'absolute',
         zIndex: '-100',
@@ -14,7 +14,7 @@ const layoutStyles = {
         position: 'absolute',
     },
     main: {
-        height: '77vh',
+        height: '77%',
         overflow: 'scroll',
     },
     disableImageWrapper: {

@@ -6,7 +6,7 @@ import Services from 'src/sections/Services'
 import Pastors from 'src/sections/Pastors'
 import Contact from 'src/sections/Contact'
 import { useMediaQuery } from 'react-responsive'
-import { Grid, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 
 const App = () => {
     const isMiniTabletOrMobile = useMediaQuery({ query: '(max-width: 640px)' })
@@ -37,13 +37,20 @@ const App = () => {
         // </>
 
         <NavProvider>
-            <Layout>
-                <Home />
-                <About />
-                <Services />
-                <Pastors />
-                <Contact />
-            </Layout>
+            <Box
+                sx={{
+                    height: '100%',
+                    overflow: 'auto',
+                }}
+            >
+                <Layout>
+                    <Home />
+                    <About />
+                    <Services />
+                    <Pastors />
+                    <Contact />
+                </Layout>
+            </Box>
         </NavProvider>
     )
 }
