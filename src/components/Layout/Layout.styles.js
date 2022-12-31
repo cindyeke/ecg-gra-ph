@@ -21,6 +21,10 @@ const layoutStyles = {
         transition: 'opacity 1s ease',
         opacity: 0,
     },
+    homeIcon: {
+        color: 'red',
+        textColor: 'red',
+    },
 }
 
 export default layoutStyles
