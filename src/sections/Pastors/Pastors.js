@@ -13,7 +13,7 @@ const Pastors = () => {
                         key={pastor.id}
                         name={pastor.name}
                         imgSrc={pastor.imgSrc.src}
-                        alt="Pastor 1"
+                        alt={pastor.name}
                     />
                 ))}
             </Grid>

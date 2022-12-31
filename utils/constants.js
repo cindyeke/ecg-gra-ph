@@ -80,16 +80,16 @@ const PASTORS = [
         name: 'Pst. Michael Sadiq',
         imgSrc: Pastor2,
     },
-    {
-        id: 3,
-        name: 'Pst. Michael Sadiq',
-        imgSrc: Pastor3,
-    },
-    {
-        id: 4,
-        name: 'Pst. Emmanuel Olowo',
-        imgSrc: Pastor4,
-    },
+    // {
+    //     id: 3,
+    //     name: 'Pst. Michael Sadiq',
+    //     imgSrc: Pastor3,
+    // },
+    // {
+    //     id: 4,
+    //     name: 'Pst. Emmanuel Olowo',
+    //     imgSrc: Pastor4,
+    // },
 ]
 
 const FACEBOOK_GROUP_LINK = 'https://www.facebook.com/groups/431474645197438'

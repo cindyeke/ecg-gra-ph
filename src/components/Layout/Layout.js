@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
             <Header />
             <main style={layoutStyles.main}>{children}</main>
             <Footer />
-            {sectionId !== SECTION.home && (
+            {(sectionId !== SECTION.home && sectionId !== SECTION.about) && (
                 <Button
                     sx={{
                         position: 'absolute',
