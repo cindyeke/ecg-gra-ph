@@ -5,7 +5,10 @@ import bulletPointStyles from './BulletPoint.styles'
 const BulletPoint = ({ name, description, children, style }) => {
     return (
         <Box sx={{ ...bulletPointStyles.root, ...style }}>
-            <Box sx={bulletPointStyles.bulletPoint} />
+            <Box>
+                <Box sx={bulletPointStyles.bulletPoint} />
+            </Box>
+
             <Box>
                 <Typography variant="h6" sx={bulletPointStyles.name}>
                     {name}
