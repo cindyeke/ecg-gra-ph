@@ -3,7 +3,7 @@ import { Grid, Box, Button } from '@mui/material'
 import PropTypes from 'prop-types'
 import Footer from './components/Footer'
 import Header from './components/Header'
-import homePageImg from '../../../public/images/people.jpg'
+import homePageImg from '../../../public/images/ecg-people.jpg'
 import layoutStyles from './Layout.styles'
 import { SECTION } from 'utils/constants'
 import useLayout from './hook/useLayout'
@@ -25,14 +25,16 @@ const Layout = ({ children }) => {
                     src={homePageImg}
                     layout="fill"
                     objectFit="cover"
-                    alt="Brand logo"
+                    objectPosition="bottom"
+                    alt="ECG People"
+                    priority={true}
                 />
                 <Box style={layoutStyles.overlay} />
             </Grid>
             <Header />
             <main style={layoutStyles.main}>{children}</main>
             <Footer />
-            {sectionId !== SECTION.home && (
+            {(sectionId !== SECTION.home && sectionId !== SECTION.about) && (
                 <Button
                     sx={{
                         position: 'absolute',

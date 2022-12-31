@@ -9,7 +9,7 @@ const homeStyles = {
         width: '100%',
         padding: '0 1.2rem',
         position: 'absolute',
-        bottom: '5rem',
+        bottom: '2rem',
         right: 0,
     },
     buttonLabel: { color: 'text.secondary' },

@@ -1,9 +1,9 @@
 const bulletPointStyles = {
     root: {
-        marginTop: '3rem',
+        marginTop: '2rem',
         display: 'flex',
         alignItems: 'center',
-        paddingLeft: '4rem',
+        paddingLeft: '3rem',
     },
     bulletPoint: {
         height: '15px',

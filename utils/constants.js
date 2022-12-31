@@ -44,8 +44,8 @@ const BUTTON_LINKS = [
 const SERVICES = [
     {
         id: 1,
-        name: 'Diplomatic Service',
-        dayAndTime: 'Mondays, 8pm',
+        name: 'Diplomatic Service (on Prophetic Channel with Major 1)',
+        dayAndTime: 'Mondays, 7pm',
     },
     {
         id: 2,
@@ -54,13 +54,18 @@ const SERVICES = [
     },
     {
         id: 3,
-        name: 'Youth Magnet',
-        dayAndTime: 'Tuesdays, 5:30pm',
+        name: 'Youth Magnet Service',
+        dayAndTime: 'Tuesdays, 4:30pm',
     },
     {
         id: 4,
         name: 'MidWeek Service',
-        dayAndTime: 'Thursdays, 5:30pm',
+        dayAndTime: 'Thursdays, 4:30pm',
+    },
+    {
+        id: 5,
+        name: 'Women on Fire Service',
+        dayAndTime: 'Monday, 4:30pm',
     },
 ]
 
@@ -75,16 +80,16 @@ const PASTORS = [
         name: 'Pst. Michael Sadiq',
         imgSrc: Pastor2,
     },
-    {
-        id: 3,
-        name: 'Pst. Michael Sadiq',
-        imgSrc: Pastor3,
-    },
-    {
-        id: 4,
-        name: 'Pst. Emmanuel Olowo',
-        imgSrc: Pastor4,
-    },
+    // {
+    //     id: 3,
+    //     name: 'Pst. Michael Sadiq',
+    //     imgSrc: Pastor3,
+    // },
+    // {
+    //     id: 4,
+    //     name: 'Pst. Emmanuel Olowo',
+    //     imgSrc: Pastor4,
+    // },
 ]
 
 const FACEBOOK_GROUP_LINK = 'https://www.facebook.com/groups/431474645197438'
