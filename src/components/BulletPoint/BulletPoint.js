@@ -8,7 +8,6 @@ const BulletPoint = ({ name, description, children, style }) => {
             <Box>
                 <Box sx={bulletPointStyles.bulletPoint} />
             </Box>
-
             <Box>
                 <Typography variant="h6" sx={bulletPointStyles.name}>
                     {name}

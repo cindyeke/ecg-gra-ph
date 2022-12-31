@@ -15,7 +15,7 @@ const Contact = () => {
                 </Typography>
 
                 <Typography variant="h6" sx={contactStyles.text2}>
-                    Join our facebook group
+                    Join our facebook group (Please click on link below)
                 </Typography>
                 <Link
                     variant="h6"
@@ -28,17 +28,21 @@ const Contact = () => {
             <Box>
                 <BulletPoint
                     name="General Enquiries"
-                    description="0708 111 1122"
-                />
-                <BulletPoint
-                    name="Anointing Materials"
                     style={contactStyles.bulletPoint}
                 >
                     <Typography variant="h6" sx={contactStyles.bulletPointDesc}>
-                        0708 111 1122
+                        0803 674 7620
                     </Typography>
                     <Typography variant="h6" sx={contactStyles.bulletPointDesc}>
-                        0803 382 0023
+                        0809 023 5040
+                    </Typography>
+                </BulletPoint>
+                <BulletPoint
+                    name="Anointing Materials (Through this contact only)"
+                    style={contactStyles.bulletPoint}
+                >
+                    <Typography variant="h6" sx={contactStyles.bulletPointDesc}>
+                        0803 338 9509
                     </Typography>
                 </BulletPoint>
             </Box>
