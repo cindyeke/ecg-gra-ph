@@ -31,6 +31,9 @@ export const theme = createTheme({
             letterSpacing: '0.2em',
             marginTop: '1.5rem',
         },
+        h4: {
+            fontSize: '1rem',
+        },
         h6: {
             fontSize: '1rem',
         },

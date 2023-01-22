@@ -10,7 +10,7 @@ const layoutStyles = {
     overlay: {
         width: '100%',
         height: '100%',
-        background: 'rgba(243, 243, 243, 0.6)',
+        background: 'rgba(243, 243, 243, 0.8)',
         position: 'absolute',
     },
     main: {
