@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import { Box } from '@mui/material'
 import Button from 'components/Button'
 import homeStyles from './Home.styles'
@@ -26,10 +25,6 @@ const Home = () => {
             </Box>
         </section>
     )
-}
-
-Home.propTypes = {
-    setSection: PropTypes.func,
 }
 
 export default Home

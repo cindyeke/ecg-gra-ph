@@ -24,14 +24,16 @@ const About = () => {
             >
                 {images.length !== 0 &&
                     images.map((img, idx) => (
-                        <Box sx={aboutStyles.imgWrapper} key={idx}>
-                            <Image
-                                src={img}
-                                alt={`preview ${idx}`}
-                                layout="responsive"
-                                priority={idx === 0}
-                            ></Image>
-                        </Box>
+                        // <Box sx={aboutStyles.imgWrapper} key={idx}>
+                        <Image
+                            key={idx}
+                            src={img}
+                            alt={`preview ${idx}`}
+                            layout="responsive"
+                            priority={idx === 0}
+                            height={500}
+                        ></Image>
+                        // </Box>
                     ))}
             </Carousel>
             <Box sx={aboutStyles.content}>
