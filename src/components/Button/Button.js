@@ -8,7 +8,7 @@ const Button = ({ label, labelStyles, buttonStyles, onButtonClick }) => {
             sx={{ ...baseButtonStyles.root, ...buttonStyles }}
             onClick={onButtonClick}
         >
-            <Typography variant="h6" sx={labelStyles}>
+            <Typography variant="h4" sx={labelStyles}>
                 {label}
             </Typography>
         </ButtonBase>
